@@ -1,0 +1,312 @@
+ <!DOCTYPE html>
+ <body>
+    <p>
+         !DOCTYPE html>
+ html lang="en">
+ head>
+     title>Mirza Portfolio /title>
+     style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to bottom, #d4cbe6, white);
+            text-align: center;
+            min-height: 100vh;
+        }
+
+        /* Header Styling */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #6655a9;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+        }
+
+        .close-btn {
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            margin-top: 100px;
+            padding: 100px 0;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            font-weight: 800;
+            color: #444;
+        }
+
+        .hero p {
+            font-size: 18px;
+            letter-spacing: 2px;
+            color: black;
+        }
+
+        /* Profile Section */
+        .profile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+            text-align: left;
+        }
+
+        .profile img {
+            width: 250px;
+            height: auto;
+            border-radius: 10px;
+            margin-right: 30px;
+        }
+
+        .profile-content {
+            max-width: 600px;
+        }
+
+        .profile h3 {
+            font-size: 16px;
+            color: gray;
+            margin-bottom: 5px;
+        }
+
+        .profile h2 {
+            font-size: 30px;
+            color: #6655a9;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .profile p {
+            font-size: 16px;
+            color: black;
+            line-height: 1.6;
+        }
+
+        /* Blog Section */
+        .blog {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+            text-align: left;
+        }
+
+        .blog img {
+            width: 350px;
+            height: auto;
+            border-radius: 10px;
+            margin-right: 30px;
+        }
+
+        .blog-content {
+            max-width: 600px;
+        }
+
+        .blog h2 {
+            font-size: 24px;
+            color: #6655a9;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .blog p {
+            font-size: 16px;
+            color: black;
+            line-height: 1.6;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 60px 20px;
+        }
+
+        .contact h3 {
+            font-size: 16px;
+            color: gray;
+        }
+
+        .contact h2 {
+            font-size: 28px;
+            color: #6655a9;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact input,
+        .contact textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .contact textarea {
+            height: 100px;
+        }
+
+        .contact button {
+            padding: 10px 20px;
+            border: 2px solid #6655a9;
+            background: white;
+            color: #6655a9;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact button:hover {
+            background: #6655a9;
+            color: white;
+        }
+
+        /* Footer */
+        footer {
+            padding: 20px;
+            font-size: 14px;
+            color: gray;
+            text-align: center;
+        }
+
+        /* Social Icons */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: gray;
+            font-size: 24px;
+            border: 1px solid gray;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .social-icons a:hover {
+            color: #6655a9;
+            border-color: #6655a9;
+        }
+     /style>
+ /head>
+ body>
+     header>
+         div class="logo">Mirza /div>
+         nav>
+             ul>
+                 li> a href="#">Home /a> /li>
+                 li> a href="#">Profile /a> /li>
+                 li> a href="#">Portfolio /a> /li>
+                 li> a href="#">Blog /a> /li>
+                 li> a href="#">Contact /a> /li>
+             /ul>
+         /nav>
+     /header>
+
+     section class="hero">
+         h1>HELLO! /h1>
+         h2>I am Mirza /h2>
+         p>SCIENCE STUDENT /p>
+     /section>
+
+     section class="profile">
+         img src="who.png" alt="Mirza's Photo">
+         div class="profile-content">
+             h3>Profile /h3>
+             h2>Get to Know Me /h2>
+             p>
+                Hello! I am Mirza Arditya Putri, born on December 25, 2006. Currently a Social Science 
+                student at SMAIT Al Haraki and expect to graduate in June 2025.
+             /p>
+         /div>
+     /section>
+
+     section class="blog">
+         img src="law_blog.png" alt="Law Blog">
+         div class="blog-content">
+             h2>Talking About Law: Aspiring My Dream as A Legal Professional /h2>
+             p>
+                Crime, inequality, and injustice occur everywhere...
+                 br> br>
+                As a result, I am particularly interested in Criminal Law...
+             /p>
+         /div>
+     /section>
+
+     section class="contact">
+         h2>Contact Me /h2>
+         form>
+             input type="text" placeholder="Your Name">
+             input type="email" placeholder="Enter Email">
+             textarea placeholder="Write Something"> /textarea>
+             button type="submit">Send Message /button>
+         /form>
+     /section>
+
+     footer>
+        Copyright 2025 © All Rights Reserved
+    /footer>
+/body>
+/html>
+
+    </p>
+    </body>
+ </html>
